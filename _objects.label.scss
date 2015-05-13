@@ -1,0 +1,33 @@
+// 
+// Declarations  
+// ========================================================================== 
+
+//
+// Features:
+//
+
+$bare-label-border-radius:		    2px !default;
+$bare-label-background:			#e02a2b !default;
+$bare-label-color: 				   #fff !default;
+
+/* 
+   #label
+   ========================================================================== */
+
+/**
+ * The label object creates simple inline labels.
+ *
+ * Usage:
+ *
+ * <span class="label"></span>
+ */
+
+.#{$bare-ns}label {
+	display: inline-block; 
+	padding: 0 bareRem($bare-sp-s);
+	border-radius: $bare-label-border-radius;
+	font-size: 85%;
+	background: $bare-label-background;
+	color: $bare-label-color;
+	text-align: center;
+}
