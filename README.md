@@ -8,7 +8,7 @@ The `label` object creates simple inline labels.
 
 Install using Bower:
 
-	$ bower --save bare-label
+	$ bower install --save bare-label
 
 Import into project:
 
