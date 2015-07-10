@@ -22,7 +22,7 @@ $bare-label-color: 				   #fff !default;
  * <span class="label"></span>
  */
 
-.#{$bare-ns}label {
+.o-label {
 	display: inline-block; 
 	padding: 0 bareRem($bare-sp-s);
 	border-radius: $bare-label-border-radius;
