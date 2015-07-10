@@ -2,7 +2,7 @@
 
 The `label` object creates simple inline labels.
 
-	<span class="label"></span>
+	<span class="o-label"></span>
 
 ## Installation
 
